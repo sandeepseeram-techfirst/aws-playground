@@ -61,3 +61,5 @@ module "elb" {
 }
 
 resource "aws_glue_catalog_table" {}
+
+resource "aws_ami_from_instance" {}
